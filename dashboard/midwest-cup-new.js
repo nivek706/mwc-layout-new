@@ -38,7 +38,6 @@
 
 	fadeOut.addEventListener('click', function() {
 		nodecg.sendMessage('bgFadeOut');
-		nodecg.log("fading out");
 	});
 
 	fadeIn.addEventListener('click', function() {
