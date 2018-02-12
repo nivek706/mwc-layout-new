@@ -1,0 +1,72 @@
+{
+  "name": "mwc-layout-new",
+  "version": "0.0.0",
+  "description": "Dynamic broadcast graphics rendered in a browser",
+  "homepage": "interstateesports.com",
+  "author": {
+    "name": "Kevin Wells",
+    "email": "nivek706@gmail.com",
+    "url": "interstateesports.com"
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "",
+    "dashboardPanels": [
+      {
+        "name": "midwest-cup-new",
+        "title": "Midwest Cup New",
+        "width": 4,
+        "file": "midwest-cup-new.html",
+        "headerColor": "#0080ff"
+      }
+    ],
+    "graphics": [
+      {
+		"file": "index.html",
+        "width": 1280,
+        "height": 720,
+        "singleInstance": false
+      },
+	  {
+		"file": "intro.html",
+		"width": 1280,
+		"height": 720,
+		"singleInstance": false
+	  },
+	  {
+		"file": "upcoming-match.html",
+		"width": 1280,
+		"height": 720,
+		"singleInstance": false
+	  },
+	  {
+		"file": "upcoming-3caster.html",
+		"width": 1280,
+		"height": 720,
+		"singleInstance": false
+	  },
+	  {
+		"file": "ingame.html",
+		"width": 1280,
+		"height": 720,
+		"singleInstance": false
+	  },
+	  {
+		"file": "brb.html",
+		"width": 1280,
+		"height": 720,
+		"singleInstance": false
+	  }
+    ]
+  },
+  "repository": "https://github.com/nodecg/nodecg.git"
+}
